@@ -1,0 +1,15 @@
+--macro src.wgl.macro.CompilerMacro.build()
+
+--main Main
+--cpp bin/cpp
+
+--library hxsdl
+--library hxstb_image
+--library hxglad
+
+--next
+
+--macro src.wgl.macro.CompilerMacro.postBuild()
+--cmd cd export/bin
+--cmd Main
+--cmd cd ../../

@@ -1,0 +1,17 @@
+{
+    "window": {
+        "width": 800,
+        "height": 600,
+        "title": "Quick Pong",
+        "backgroundColor": "#9999ff",
+        "resizable": true,
+        "viewportType": "default"
+    },
+    "project": {
+        "main": "Main",
+        "assetsPaths": ["assets", "src"],
+        "classPath": "src",
+        "output": "export"
+        
+    }
+}
